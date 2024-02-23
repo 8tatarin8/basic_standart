@@ -50,8 +50,13 @@ button {
 .link {
   text-decoration: none;
 }
-button {
-  cursor: pointer;
+textarea,
+button,
+input {
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
 }
 h1,
 h2,
@@ -60,6 +65,8 @@ h4,
 p {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 ul,
 ol {
